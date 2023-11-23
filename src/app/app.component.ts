@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { lorem } from 'faker';
+// import { lorem } from 'faker';
+import { faker } from '@faker-js/faker';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,8 @@ import { lorem } from 'faker';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  randomText = lorem.sentence();
+  // randomText = lorem.sentence();
+  randomText = faker.lorem.paragraph();
   enteredText = '';
   // solved = false;
 
