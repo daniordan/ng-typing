@@ -1,5 +1,7 @@
 # Typing Angular App
 
+A single page with a minimal design which features a typing challenge mini-game. Generates a random sentence and compares it with the user's input. Marks with green color if the user's input is correct and red otherwise.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Prerequisites
